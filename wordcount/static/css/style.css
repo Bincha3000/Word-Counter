@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    margin: 0;
+}
+
+.title-name {
+    margin-left: 30px;
+}
+
+.content {
+    margin-left: 25px
+}
+
+.fulltext {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

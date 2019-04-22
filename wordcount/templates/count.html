@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+        <a href="{% url 'home' %}">Начать заново</a>
+        
+        <p class="countpage">Твой текст:</p>
+        <label class="fulltext" for="fulltext">{{ fulltext }}</label>
+        <p class="countpage">Кол-во слов:</p>
+        <label class="count" for="count">{{ count }}</label>
+        
+        <p class="countpage">Счетчик слов:</p>
+        
+    <p class="countpage">
+        {% for word, count in sortedwords %}
+        {{ word }}: {{count}} <br>
+        {% endfor %}
+    </p>
+</div>
+
+{% endblock %}
